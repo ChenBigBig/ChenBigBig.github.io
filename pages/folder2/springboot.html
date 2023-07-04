@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SpringBoot篇 | 武林秘籍</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/icon.png">
+    <meta name="description" content="ChenBigBig的武林秘籍">
+    
+    <link rel="preload" href="/assets/css/0.styles.e8e4f3a3.css" as="style"><link rel="preload" href="/assets/js/app.0bd9ad6f.js" as="script"><link rel="preload" href="/assets/js/2.733019b2.js" as="script"><link rel="preload" href="/assets/js/14.9ebc12f7.js" as="script"><link rel="prefetch" href="/assets/js/10.2b63f33d.js"><link rel="prefetch" href="/assets/js/11.2fe6803a.js"><link rel="prefetch" href="/assets/js/12.6cf5b77a.js"><link rel="prefetch" href="/assets/js/13.e45a7ae8.js"><link rel="prefetch" href="/assets/js/15.a91f92c9.js"><link rel="prefetch" href="/assets/js/16.26188cf5.js"><link rel="prefetch" href="/assets/js/17.1c8df4ca.js"><link rel="prefetch" href="/assets/js/18.54015b9e.js"><link rel="prefetch" href="/assets/js/19.57914b98.js"><link rel="prefetch" href="/assets/js/3.98f8877b.js"><link rel="prefetch" href="/assets/js/4.d12742be.js"><link rel="prefetch" href="/assets/js/5.216cae74.js"><link rel="prefetch" href="/assets/js/6.2d0a63f8.js"><link rel="prefetch" href="/assets/js/7.9c9172a7.js"><link rel="prefetch" href="/assets/js/8.beb64655.js"><link rel="prefetch" href="/assets/js/9.cf8659dc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e8e4f3a3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/icon.png" alt="武林秘籍" class="logo"> <span class="site-name can-hide">武林秘籍</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/base.html" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/collection.html" class="nav-link">
+  集合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/thread.html" class="nav-link">
+  多线程
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder2/spring.html" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springmvc.html" class="nav-link">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/mybatis.html" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springboot.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  SprintBoot
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder3/mysql.html" class="nav-link">
+  关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/nosql.html" class="nav-link">
+  非关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/mq.html" class="nav-link">
+  消息队列
+</a></div><div class="nav-item"><a href="/pages/other/other.html" class="nav-link">
+  其它
+</a></div><div class="nav-item"><a href="https://github.com/ChenBigBig" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/base.html" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/collection.html" class="nav-link">
+  集合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/thread.html" class="nav-link">
+  多线程
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder2/spring.html" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springmvc.html" class="nav-link">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/mybatis.html" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springboot.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  SprintBoot
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder3/mysql.html" class="nav-link">
+  关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/nosql.html" class="nav-link">
+  非关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/mq.html" class="nav-link">
+  消息队列
+</a></div><div class="nav-item"><a href="/pages/other/other.html" class="nav-link">
+  其它
+</a></div><div class="nav-item"><a href="https://github.com/ChenBigBig" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>SpringBoot篇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/folder2/springboot.html#什么是springboot-为什么要用springboot-springboot的优点" class="sidebar-link">什么是SpringBoot，为什么要用SpringBoot，SpringBoot的优点</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#spring、spring-mvc、spring-boot-有什么区别-都是做什么的" class="sidebar-link">Spring、Spring mvc、Spring boot 有什么区别？都是做什么的？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#运行springboot有哪几种方式" class="sidebar-link">运行SpringBoot有哪几种方式？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#springboot的核心注解有哪些" class="sidebar-link">SpringBoot的核心注解有哪些？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#spring-boot打包成jar和war的区别" class="sidebar-link">Spring Boot打包成jar和war的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#springboot有哪几种读取配置的方式" class="sidebar-link">SpringBoot有哪几种读取配置的方式</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#什么是yaml语言" class="sidebar-link">什么是YAML语言</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#springboot核心原理" class="sidebar-link">SpringBoot核心原理</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#springboot中如何处理异常" class="sidebar-link">SpringBoot中如何处理异常</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springboot.html#springboot如何解决跨域问题" class="sidebar-link">SpringBoot如何解决跨域问题</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="springboot篇"><a href="#springboot篇" class="header-anchor">#</a> SpringBoot篇</h1> <h2 id="什么是springboot-为什么要用springboot-springboot的优点"><a href="#什么是springboot-为什么要用springboot-springboot的优点" class="header-anchor">#</a> 什么是SpringBoot，为什么要用SpringBoot，SpringBoot的优点</h2> <p>1.Spring Boot 是 Spring 开源组织下的子项目，是 Spring 组件一站式解决方案，主要是简化了使用 Spring 的难度，简省了繁重的配置，提供了各种启动器，使开发者能快速上手。<br>
+2.快速开发，快速整合，配置简化、内嵌服务容器<br>
+3.Spring Boot 主要有如下优点：</p> <ul><li>容易上手，提升开发效率，为 Spring 开发提供一个更快、更简单的开发框架。</li> <li>开箱即用，远离繁琐的配置。</li> <li>提供了一系列大型项目通用的非业务性功能，例如：内嵌服务器、安全管理、运行数据监控、运行状况检查和外部化配置等。</li> <li>SpringBoot总结就是使编码变简单、配置变简单、部署变简单、监控变简单等等</li></ul> <h2 id="spring、spring-mvc、spring-boot-有什么区别-都是做什么的"><a href="#spring、spring-mvc、spring-boot-有什么区别-都是做什么的" class="header-anchor">#</a> Spring、Spring mvc、Spring boot 有什么区别？都是做什么的？</h2> <p><strong>Spring----&gt;</strong>:<br>
+Spring是一个轻量级的开源Java框架，用于开发企业级应用程序。<br>
+Spring提供了一套综合的解决方案，用于管理应用程序的组件、处理依赖注入、实现面向切面编程（AOP）等。<br>
+Spring可以帮助开发者构建松耦合、可测试和可维护的应用程序。<br> <strong>Spring MVC----&gt;</strong>:<br>
+Spring MVC是基于Spring的Web框架，用于开发Web应用程序。<br>
+Spring MVC提供了一种基于模型-视图-控制器（MVC）的架构模式，用于处理Web请求和响应。<br>
+Spring MVC通过将请求映射到控制器、处理请求参数、调用业务逻辑、渲染视图等，帮助开发者构建灵活的Web应用程序。<br> <strong>Spring Boot----&gt;</strong>:<br>
+Spring Boot是一个用于简化和快速构建Spring应用程序的框架。<br>
+Spring Boot提供了自动配置和约定优于配置的原则，使开发者能够快速搭建独立运行的、生产级别的Spring应用程序。<br>
+Spring Boot通过提供默认的配置和开箱即用的功能，减少了繁琐的配置和集成工作，让开发者能够更专注于业务逻辑的实现。<br> <strong>[简单概述]</strong>:<br>
+Spring是一个综合性的框架，提供了依赖注入、AOP、事务管理等功能，用于开发企业级应用程序。<br>
+Spring MVC是基于Spring的Web框架，用于开发Web应用程序，实现了MVC架构模式，处理Web请求和响应。<br>
+Spring Boot是一个简化和快速构建Spring应用程序的框架，提供了自动配置和约定优于配置的原则，帮助开发者快速搭建独立运行的Spring应用程序。<br>
+这些框架/技术之间有关联，Spring MVC是基于Spring的一部分，而Spring Boot则是建立在Spring框架之上的工具，可以简化Spring应用程序的开发和部署过程。</p> <h2 id="运行springboot有哪几种方式"><a href="#运行springboot有哪几种方式" class="header-anchor">#</a> 运行SpringBoot有哪几种方式？</h2> <p>1.打包用命令或者者放到容器中运行<br>
+2.用Maven/Gradle插件运行<br>
+3.直接执行 main 方法运行</p> <h2 id="springboot的核心注解有哪些"><a href="#springboot的核心注解有哪些" class="header-anchor">#</a> SpringBoot的核心注解有哪些？</h2> <p>1.启动类上面的注解@SpringBootApplicaiton，它也是 Spring Boot 的核心注解<br>
+2.@SpringBootConfiguration：组合了 @Configuration 注解，实现配置文件的功能。<br>
+3.@EnableAutoConfiguration：打开自动配置的功能，也可以关闭某个自动配置的选项，如关闭数据源自动配置功能：@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })。<br>
+4.@ComponentScan：Spring组件扫描</p> <h2 id="spring-boot打包成jar和war的区别"><a href="#spring-boot打包成jar和war的区别" class="header-anchor">#</a> Spring Boot打包成jar和war的区别</h2> <p>Spring Boot打包成jar和war的区别主要在部署和运行环境上。</p> <ol><li>Jar包：将Spring Boot应用打包成jar包，它包含了应用的所有依赖和资源文件，并且可以在所有支持Java的环境上运行，包括本地运行和云端运行。使用jar包部署Spring Boot应用非常方便，只需要执行java -jar命令即可启动应用。</li> <li>War包：将Spring Boot应用打包成war包，它是Web应用程序归档文件，包含了应用的所有文件和资源，可以在支持Java Web容器的环境中部署和运行。与jar包相比，war包需要将Spring Boot应用部署到Web容器中，然后启动容器，才能运行应用。在生产环境中，通常使用war包来部署Spring Boot应用。<br>
+总之，jar包适用于独立运行的应用，而war包适用于Web应用程序。根据实际需求来选择打包方式。</li></ol> <h2 id="springboot有哪几种读取配置的方式"><a href="#springboot有哪几种读取配置的方式" class="header-anchor">#</a> SpringBoot有哪几种读取配置的方式</h2> <p>Spring Boot 可以通过 @PropertySource,@Value,@Environment, @ConfigurationPropertie注解来绑定变量</p> <h2 id="什么是yaml语言"><a href="#什么是yaml语言" class="header-anchor">#</a> 什么是YAML语言</h2> <p>YAML 是一种人类可读的数据序列化语言。它通常用于配置文件。与属性文件相比，如果我们想要在配置文件中添加复杂的属性，YAML 文件就更加结构化，而且更少混淆。可以看出 YAML 具有分层配置数据。</p> <h2 id="springboot核心原理"><a href="#springboot核心原理" class="header-anchor">#</a> SpringBoot核心原理</h2> <p>Spring Boot的核心原理是基于约定优于配置的思想，旨在简化和快速构建Spring应用程序。以下是Spring Boot的核心原理：</p> <ol><li>自动配置（Auto-configuration）：Spring Boot通过自动配置机制，根据应用程序的依赖和配置，自动为应用程序提供合理的默认配置。它通过在类路径上检测相关的库、框架和配置信息，根据这些信息自动配置Spring应用程序的各个部分。</li> <li>起步依赖（Starter Dependencies）：Spring Boot提供了一系列称为&quot;起步依赖&quot;的依赖关系，这些依赖关系包含了常用的库和框架，用于快速搭建特定类型的应用程序。起步依赖简化了依赖管理和版本控制，并帮助开发者轻松引入所需的功能模块。</li> <li>嵌入式容器（Embedded Container）：Spring Boot支持使用内嵌的Servlet容器（如Tomcat、Jetty或Undertow），将应用程序打包为可执行的JAR文件，并直接运行应用程序，而不需要外部容器的部署。这样可以简化应用程序的部署和运行，提高开发者的生产力。</li> <li>健康检查（Actuator Health Check）：Spring Boot提供了Actuator模块，用于监控和管理Spring应用程序。其中包含了健康检查（Health Check）功能，可以检查应用程序的运行状况，如数据库连接、消息队列连接等，并提供了相关的端点（Endpoint）和接口，方便进行健康状态的监控和管理。</li> <li>外部化配置（Externalized Configuration）：Spring Boot支持将应用程序的配置信息外部化，可以使用属性文件、YAML文件、环境变量等方式来配置应用程序。这使得应用程序的配置更加灵活和易于管理，减少了硬编码配置的需求。<br>
+总之，Spring Boot的核心原理是通过自动配置、起步依赖、嵌入式容器、健康检查和外部化配置等机制，以简化的方式构建和管理Spring应用程序。它使开发者能够快速启动和开发应用程序，并提供了一致性、高度可配置的开发体验。</li></ol> <h2 id="springboot中如何处理异常"><a href="#springboot中如何处理异常" class="header-anchor">#</a> SpringBoot中如何处理异常</h2> <p>java
+1.使用@ControllerAdvice和@ExceptionHandler注解：<br>
+创建一个全局的异常处理类，并使用@ControllerAdvice注解标记该类。<br>
+在异常处理类中定义针对不同异常的处理方法，并使用@ExceptionHandler注解标记这些方法。<br>
+在处理方法中，可以根据具体的异常类型进行相应的处理，如返回错误信息、跳转到错误页面等。</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">//代码部分:</span>
+<span class="token annotation punctuation">@ControllerAdvice</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">GlobalExceptionHandler</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@ExceptionHandler</span><span class="token punctuation">(</span><span class="token class-name">Exception</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token class-name">ModelAndView</span> <span class="token function">handleException</span><span class="token punctuation">(</span><span class="token class-name">Exception</span> ex<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">ModelAndView</span> modelAndView <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ModelAndView</span><span class="token punctuation">(</span><span class="token string">&quot;error&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        modelAndView<span class="token punctuation">.</span><span class="token function">addObject</span><span class="token punctuation">(</span><span class="token string">&quot;errorMessage&quot;</span><span class="token punctuation">,</span> ex<span class="token punctuation">.</span><span class="token function">getMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> modelAndView<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>2.使用@RestControllerAdvice和@ExceptionHandler注解：<br>
+类似于上述方法，创建一个全局的异常处理类，并使用@RestControllerAdvice注解标记该类。<br>
+在异常处理类中定义针对不同异常的处理方法，并使用@ExceptionHandler注解标记这些方法。<br>
+在处理方法中，可以根据具体的异常类型进行相应的处理，如返回错误信息、自定义JSON格式等。</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">//代码部分:</span>
+<span class="token annotation punctuation">@RestControllerAdvice</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">GlobalExceptionHandler</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@ExceptionHandler</span><span class="token punctuation">(</span><span class="token class-name">Exception</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token class-name">ResponseEntity</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> <span class="token function">handleException</span><span class="token punctuation">(</span><span class="token class-name">Exception</span> ex<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token class-name">ResponseEntity</span><span class="token punctuation">.</span><span class="token function">status</span><span class="token punctuation">(</span><span class="token class-name">HttpStatus</span><span class="token punctuation">.</span><span class="token constant">INTERNAL_SERVER_ERROR</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">body</span><span class="token punctuation">(</span>ex<span class="token punctuation">.</span><span class="token function">getMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>3.使用自定义异常类和异常处理器
+创建自定义的异常类，继承自Exception或其他合适的异常类，用于标识特定的业务异常。
+创建异常处理器类，实现HandlerExceptionResolver接口，并在其中实现对特定异常的处理逻辑。
+注册异常处理器类，使其生效。</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">//代码部分: </span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CustomException</span> <span class="token keyword">extends</span> <span class="token class-name">Exception</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 自定义异常类</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CustomExceptionHandler</span> <span class="token keyword">implements</span> <span class="token class-name">HandlerExceptionResolver</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token class-name">ModelAndView</span> <span class="token function">resolveException</span><span class="token punctuation">(</span><span class="token class-name">HttpServletRequest</span> request<span class="token punctuation">,</span> <span class="token class-name">HttpServletResponse</span> response<span class="token punctuation">,</span>
+                                        <span class="token class-name">Object</span> handler<span class="token punctuation">,</span> <span class="token class-name">Exception</span> ex<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">ModelAndView</span> modelAndView <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ModelAndView</span><span class="token punctuation">(</span><span class="token string">&quot;error&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        modelAndView<span class="token punctuation">.</span><span class="token function">addObject</span><span class="token punctuation">(</span><span class="token string">&quot;errorMessage&quot;</span><span class="token punctuation">,</span> ex<span class="token punctuation">.</span><span class="token function">getMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> modelAndView<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="springboot如何解决跨域问题"><a href="#springboot如何解决跨域问题" class="header-anchor">#</a> SpringBoot如何解决跨域问题</h2> <p>1:使用@CrossOrigin注解：</p> <ul><li>在控制器类或控制器方法上添加@CrossOrigin注解。</li> <li>在@CrossOrigin注解中指定允许跨域请求的来源（origin）、方法（methods）、头部信息（allowedHeaders）等参数。</li></ul> <p>2:使用WebMvcConfigurer配置跨域：</p> <ul><li>创建一个实现WebMvcConfigurer接口的配置类。</li> <li>重写addCorsMappings()方法，在方法中配置跨域请求的规则。</li></ul> <p>3:使用Filter过滤器处理跨域请求：</p> <ul><li>创建一个实现javax.servlet.Filter接口的跨域过滤器。</li> <li>在doFilter()方法中设置响应头信息，允许跨域请求。</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.0bd9ad6f.js" defer></script><script src="/assets/js/2.733019b2.js" defer></script><script src="/assets/js/14.9ebc12f7.js" defer></script>
+  </body>
+</html>

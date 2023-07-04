@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Spring MVC篇 | 武林秘籍</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/icon.png">
+    <meta name="description" content="ChenBigBig的武林秘籍">
+    
+    <link rel="preload" href="/assets/css/0.styles.e8e4f3a3.css" as="style"><link rel="preload" href="/assets/js/app.0bd9ad6f.js" as="script"><link rel="preload" href="/assets/js/2.733019b2.js" as="script"><link rel="preload" href="/assets/js/15.a91f92c9.js" as="script"><link rel="prefetch" href="/assets/js/10.2b63f33d.js"><link rel="prefetch" href="/assets/js/11.2fe6803a.js"><link rel="prefetch" href="/assets/js/12.6cf5b77a.js"><link rel="prefetch" href="/assets/js/13.e45a7ae8.js"><link rel="prefetch" href="/assets/js/14.9ebc12f7.js"><link rel="prefetch" href="/assets/js/16.26188cf5.js"><link rel="prefetch" href="/assets/js/17.1c8df4ca.js"><link rel="prefetch" href="/assets/js/18.54015b9e.js"><link rel="prefetch" href="/assets/js/19.57914b98.js"><link rel="prefetch" href="/assets/js/3.98f8877b.js"><link rel="prefetch" href="/assets/js/4.d12742be.js"><link rel="prefetch" href="/assets/js/5.216cae74.js"><link rel="prefetch" href="/assets/js/6.2d0a63f8.js"><link rel="prefetch" href="/assets/js/7.9c9172a7.js"><link rel="prefetch" href="/assets/js/8.beb64655.js"><link rel="prefetch" href="/assets/js/9.cf8659dc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e8e4f3a3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/icon.png" alt="武林秘籍" class="logo"> <span class="site-name can-hide">武林秘籍</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/base.html" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/collection.html" class="nav-link">
+  集合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/thread.html" class="nav-link">
+  多线程
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder2/spring.html" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springmvc.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/mybatis.html" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springboot.html" class="nav-link">
+  SprintBoot
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder3/mysql.html" class="nav-link">
+  关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/nosql.html" class="nav-link">
+  非关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/mq.html" class="nav-link">
+  消息队列
+</a></div><div class="nav-item"><a href="/pages/other/other.html" class="nav-link">
+  其它
+</a></div><div class="nav-item"><a href="https://github.com/ChenBigBig" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/base.html" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/collection.html" class="nav-link">
+  集合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder1/thread.html" class="nav-link">
+  多线程
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder2/spring.html" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springmvc.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/mybatis.html" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/springboot.html" class="nav-link">
+  SprintBoot
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder3/mysql.html" class="nav-link">
+  关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/nosql.html" class="nav-link">
+  非关系型数据库
+</a></div><div class="nav-item"><a href="/pages/folder3/mq.html" class="nav-link">
+  消息队列
+</a></div><div class="nav-item"><a href="/pages/other/other.html" class="nav-link">
+  其它
+</a></div><div class="nav-item"><a href="https://github.com/ChenBigBig" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Spring MVC篇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/folder2/springmvc.html#说说你对spring-mvc的理解" class="sidebar-link">说说你对Spring MVC的理解</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#spring-mvc的优点" class="sidebar-link">Spring MVC的优点</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#spring-mvc的工作原理" class="sidebar-link">Spring MVC的工作原理</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#spring-mvc的常用注解有哪些" class="sidebar-link">Spring MVC的常用注解有哪些</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#controller-注解有什么用" class="sidebar-link">@Controller 注解有什么用？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#requestmapping-注解有什么用" class="sidebar-link">@RequestMapping 注解有什么用？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#restcontroller-和-controller-有什么区别" class="sidebar-link">@RestController 和 @Controller 有什么区别？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#requestmapping-和-getmapping-注解有什么不同" class="sidebar-link">@RequestMapping 和 @GetMapping 注解有什么不同？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#requestparam-和-pathvariable-两个注解的区别" class="sidebar-link">@RequestParam 和 @PathVariable 两个注解的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#requestbody和-requestparam的区别" class="sidebar-link">@RequestBody和@RequestParam的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#介绍下-spring-mvc-拦截器" class="sidebar-link">介绍下 Spring MVC 拦截器</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#spring-mvc中的拦截器和filter的过滤器有什么不同" class="sidebar-link">Spring MVC中的拦截器和Filter的过滤器有什么不同</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#使用rest风格有什么优势" class="sidebar-link">使用REST风格有什么优势</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/pages/folder2/springmvc.html#spring-mvc的异常处理" class="sidebar-link">Spring MVC的异常处理</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="spring-mvc篇"><a href="#spring-mvc篇" class="header-anchor">#</a> Spring MVC篇</h1> <h2 id="说说你对spring-mvc的理解"><a href="#说说你对spring-mvc的理解" class="header-anchor">#</a> 说说你对Spring MVC的理解</h2> <p>SpringMVC是一种基于 Java 的实现MVC设计模型的请求驱动类型的轻量级Web框架，属于Spring框架的一个模块。
+它通过一套注解，让一个简单的Java类成为处理请求的控制器，而无须实现任何接口。同时它还支持RESTful编程风格的请求。</p> <h2 id="spring-mvc的优点"><a href="#spring-mvc的优点" class="header-anchor">#</a> Spring MVC的优点</h2> <p>1.与Spring集成使用非常方便，生态好。<br>
+2.配置简单，快速上手。<br>
+3.支持 RESTful 风格。<br>
+4.支持各种视图技术，支持各种请求资源映射策略。</p> <h2 id="spring-mvc的工作原理"><a href="#spring-mvc的工作原理" class="header-anchor">#</a> Spring MVC的工作原理</h2> <p>客户端向服务端发送一次请求，这个请求会先到前端控制器 DispatcherServlet(也叫中央控制器)。<br>
+DispatcherServlet 接收到请求后会调用 HandlerMapping 处理器映射器。由此得知，该请求该由哪个 Controller 来处理（并未调用 Controller，只是得知）<br>
+DispatcherServlet 调用 HandlerAdapter 处理器适配器，告诉处理器适配器应该要去执行哪个 Controller<br>
+HandlerAdapter 处理器适配器去执行 Controller 并得到 ModelAndView(数据和视图)，并层层返回给 DispatcherServlet<br>
+DispatcherServlet 将 ModelAndView 交给 ViewReslover 视图解析器解析，然后返回真正的视图。<br>
+DispatcherServlet 将模型数据填充到视图中<br>
+DispatcherServlet 将结果响应给客户端<br> <img src="/SpringMVC%E5%B7%A5%E4%BD%9C%E6%B5%81.png" alt="SpringMVC工作流"></p> <h2 id="spring-mvc的常用注解有哪些"><a href="#spring-mvc的常用注解有哪些" class="header-anchor">#</a> Spring MVC的常用注解有哪些</h2> <p>@Controller：用于标识此类的实例是一个控制器。<br>
+@RequestMapping：映射Web请求（访问路径和参数）。<br>
+@ResponseBody：注解返回数据而不是返回页面@RequestBody：注解实现接收 http 请求的 json 数据，将 json 数据转换为 java 对象。@PathVariable：获得URL中路径变量中的值<br>
+@RestController@Controller+@ResponseBody<br>
+@ExceptionHandler标识一个方法为全局异常处理的方法。</p> <h2 id="controller-注解有什么用"><a href="#controller-注解有什么用" class="header-anchor">#</a> @Controller 注解有什么用？</h2> <p>@Controller 注解标记一个类为 Spring Web MVC 控制器。<br>
+Spring MVC 会将扫描到该注解的类，然后扫描这个类下面带有 @RequestMapping 注解的方法，根据注解信息，为这个方法生成一个对应的处理器对象。</p> <h2 id="requestmapping-注解有什么用"><a href="#requestmapping-注解有什么用" class="header-anchor">#</a> @RequestMapping 注解有什么用？</h2> <p>@RequestMapping 注解，用于配置处理器的 HTTP 请求方法，URI等信息，这样才能将请求和方法进行映射。这个注解可以作用于类上面，也可以作用于方法上面，在类上面一般是配置这个控制器的 URI 前缀。</p> <h2 id="restcontroller-和-controller-有什么区别"><a href="#restcontroller-和-controller-有什么区别" class="header-anchor">#</a> @RestController 和 @Controller 有什么区别？</h2> <p>@RestController 注解，在 @Controller 基础上，增加了 @ResponseBody 注解，更加适合目前前后端分离的架构下，提供 Restful API ，返回 JSON 数据格式。</p> <h2 id="requestmapping-和-getmapping-注解有什么不同"><a href="#requestmapping-和-getmapping-注解有什么不同" class="header-anchor">#</a> @RequestMapping 和 @GetMapping 注解有什么不同？</h2> <p>1:@RequestMapping：可注解在类和方法上；@GetMapping 仅可注册在方法上<br>
+2:@RequestMapping：可进行 GET、POST、PUT、DELETE 等请求方法；@GetMapping 是 @RequestMapping 的 GET 请求方法的特例。</p> <h2 id="requestparam-和-pathvariable-两个注解的区别"><a href="#requestparam-和-pathvariable-两个注解的区别" class="header-anchor">#</a> @RequestParam 和 @PathVariable 两个注解的区别</h2> <p>两个注解都用于方法参数，获取参数值的方式不同<br>
+@RequestParam 注解的参数从请求携带的参数中获取
+@PathVariable 注解从请求的 URI 中获取</p> <h2 id="requestbody和-requestparam的区别"><a href="#requestbody和-requestparam的区别" class="header-anchor">#</a> @RequestBody和@RequestParam的区别</h2> <p>@RequestBody一般处理的是在ajax请求中声明contentType: &quot;application/json; charset=utf-8&quot;时候。也就是json数据或者xml数据。<br>
+@RequestParam一般就是在ajax里面没有声明contentType的时候，为默认的x-www-form-urlencoded格式时。</p> <h2 id="介绍下-spring-mvc-拦截器"><a href="#介绍下-spring-mvc-拦截器" class="header-anchor">#</a> 介绍下 Spring MVC 拦截器</h2> <p>Spring MVC 拦截器对应HandlerInterceor接口，该接口位于org.springframework.web.servlet的包中，定义了三个方法，若要实现该接口，就要实现其三个方法：<br>
+1:前置处理（preHandle()方法）：该方法在执行控制器方法之前执行。返回值为Boolean类型，如果返回false，表示拦截请求，不再向下执行，如果返回true，表示放行，程序继续向下执行（如果后面没有其他Interceptor，就会执行controller方法）。所以此方法可对请求进行判断，决定程序是否继续执行，或者进行一些初始化操作及对请求进行预处理。<br>
+2:后置处理（postHandle()方法）：该方法在执行控制器方法调用之后，且在返回ModelAndView之前执行。由于该方法会在DispatcherServlet进行返回视图渲染之前被调用，所以此方法多被用于处理返回的视图，可通过此方法对请求域中的模型和视图做进一步的修改。<br>
+3:已完成处理（afterCompletion()方法）：该方法在执行完控制器之后执行，由于是在Controller方法执行完毕后执行该方法，所以该方法适合进行一些资源清理，记录日志信息等处理操作。</p> <h2 id="spring-mvc中的拦截器和filter的过滤器有什么不同"><a href="#spring-mvc中的拦截器和filter的过滤器有什么不同" class="header-anchor">#</a> Spring MVC中的拦截器和Filter的过滤器有什么不同</h2> <p>功能相同：拦截器和 Filter 都能实现相应的功能容器不同：<br>
+拦截器构建在 Spring MVC 体系中；Filter 构建在 Servlet 容器之上<br>
+使用便利性不同：拦截器提供了三个方法，分别在不同的时机执行；过滤器仅提供一个方法</p> <ol><li>拦截器是基于Java的反射机制，它可以拦截请求，并在请求到达Controller之前或之后进行预处理或后处理，例如：记录日志、权限验证、设置请求属性等。而Filter则是基于Servlet规范，可以在请求到达Web容器之前或之后进行预处理或后处理，例如：字符编码格式化、文件压缩、设置请求头等。</li> <li>拦截器只能对Controller层发出的请求进行拦截，不能对其他的组件如JSP、HTML等进行拦截。而Filter则可以对所有的请求进行拦截，包括静态资源的请求。</li> <li>拦截器可以在单个Handler内进行链式调用，可以控制拦截器的执行顺序，也可以按照某种规则来进行拦截器的排除，例如：排除静态资源的拦截。而Filter的过滤器只能通过Web.xml文件的配置来进行顺序控制，无法进行灵活的排除。<br>
+[总的来说，拦截器和Filter都可以实现请求过滤，但是它们各有优缺点，需要根据具体场景进行选择。一般来说，优先考虑使用拦截器，因为它更加灵活，而Filter则主要是处理一些与请求相关的底层问题，例如字符编码，文件压缩等。]</li></ol> <h2 id="使用rest风格有什么优势"><a href="#使用rest风格有什么优势" class="header-anchor">#</a> 使用REST风格有什么优势</h2> <p>第一，风格统一了，不会出现delUser/deleteUser/removeUser各种命名的代码了。<br>
+第二，面向资源，一目了然，具有自解释性。<br>
+第三，充分利用 HTTP 协议本身语义。</p> <h2 id="spring-mvc的异常处理"><a href="#spring-mvc的异常处理" class="header-anchor">#</a> Spring MVC的异常处理</h2> <p>可以将异常抛给Spring框架，由Spring框架来处理；我们只需要配置简单的异常处理器，在异常处理器中添视图页面即可。</p> <ol><li>使用 @ExceptionHandler 注解：在控制器中定义一个方法，并使用 @ExceptionHandler 注解来捕获异常，并进行相应的处理。类上标注@ControllerAdvice</li> <li>实现 HandlerExceptionResolver 接口：通过实现该接口中的 resolveException() 方法，在全局范围内处理异常。</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.0bd9ad6f.js" defer></script><script src="/assets/js/2.733019b2.js" defer></script><script src="/assets/js/15.a91f92c9.js" defer></script>
+  </body>
+</html>
